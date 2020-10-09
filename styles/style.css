@@ -1,0 +1,26 @@
+.content { 
+    margin: 0 auto;
+    border: 1px solid black; 
+    height: 500px;
+
+}
+
+#location {
+    display: block;
+    margin: 50px auto; 
+
+}
+
+#btn { 
+    display: block;
+    margin: 50px auto;
+
+}
+
+#gif { 
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 290px;
+}
