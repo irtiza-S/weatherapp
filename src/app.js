@@ -8,8 +8,6 @@ let gif = document.getElementById('gif')
 //import statements
 import getGif from "./giph.js";
 import kelvintocelsius from './temp.js'
-// import kelvintofahrenheit from './temp.js'
-//converts kelvin to celsius
 
 
 
@@ -18,7 +16,7 @@ btn.addEventListener('click', (e) => {
     fetch(completeUrl, { mode:'cors' })
     .then(response => response.json())
     .then(res => {
-        kelvintocelsius(res.main.temp);
+        console.log(kelvintocelsius(res.main.temp));
         let desc = res.weather[0].description
         console.log(desc)
         getGif(desc).then(res => {
