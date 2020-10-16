@@ -25,6 +25,8 @@ btn.addEventListener('click', (e) => {
             
         })
     .catch(err => console.error(err));
-    });
+    })
 })
+
+
 

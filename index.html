@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a8dbb25b0e.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="content">
-        <input type="text" id='location'>
-        <button id='btn'>Click me</button>
-        <img src="" alt="" id='gif'>
+        <div class='searchDiv'>
+            <input type="text" id='location' placeholder='enter a city'>
+            <button id='btn'><i class="fas fa-search"></i></button>
+        </div>
+        <div class='weatherDisplay' class='content'>
+            <div class='city'>...</div>
+            
+        </div>
+        <div class='giphyshowcase'>
+            <img src="" alt="" id='gif'>
+        </div>
+        
     </div>
     
     <script type='module' src='./src/app.js'></script>
