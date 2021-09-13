@@ -1,6 +1,6 @@
 //this will be responsible for the corresponding
 //images for the current weather. 
-var gifUrl = 'https://api.giphy.com/v1/gifs/translate?api_key=7aXnuLtONbfODFNSXY8rNYXIuBA8rNDV&s='
+var gifUrl = 'apikey'
 
 export default async function getGif(description) { 
     gifUrl = gifUrl + description;
